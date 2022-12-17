@@ -1,0 +1,128 @@
+
+.HOME-Cliente-01 {
+  width: 100vw;
+  min-height: 100vh;
+  align-self: center;
+  flex-grow: 0;
+  padding: 99px 411px 459px 88px;
+  background-color: #edf3f1;
+}
+
+
+.A-consulta {
+  width: 186px;
+  height: 29px;
+  margin: 0 755px 35px 0;
+  font-family: Raleway;
+  font-size: 25px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #000;
+}
+
+.Rectangle-48 {
+  display: flex;
+  justify-content: space-between;
+  width: 941px;
+  height: 78px;
+  flex-grow: 0;
+  margin: 35px 0 12px;
+  padding: 16px 94px 17px 34px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.Procedimiento-01 {
+
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #949494;
+}
+
+.Esclerosis {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+.Frame-288 {
+  display: block;
+
+  flex-grow: 0;
+  flex-direction: column;
+  justify-content: flex-;
+  align-items: flex-start;
+  gap: 7px;
+  padding: 0;
+}
+
+.Buttons-3 {
+  cursor: pointer;
+  width: 202px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin: 35px 739px 0 0;
+  padding: 16px;
+  border-radius: 5px;
+  background-color: #3f48ad;
+}
+
+.Buttons-3:hover {
+  background-color: #4a51a2;
+}
+
+.validation{
+  display: block;
+  color: red;
+  font-size: 10px;
+}
+
+.btnContent {
+  width: 155px;
+  height: 16px;
+  flex-grow: 0;
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #fff;
+}
+
+.editIcon {
+  width: 13px;
+  height: 14px;
+  flex-grow: 0;
+  object-fit: contain;
+  font-family: SFCompactDisplay;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #fff;
+}

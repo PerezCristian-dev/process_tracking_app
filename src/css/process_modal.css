@@ -1,0 +1,142 @@
+
+.modal__container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  background-color: rgba(148, 150, 175, 0.39);
+  overflow: hidden;
+}
+
+.process_edit_container {
+  width: 1200px;
+  height: 40%;
+  overflow: auto;
+  margin: 200px auto;
+  padding: 6rem;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.item__container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.close__icon{
+  position: relative;
+  z-index: 999;
+  bottom: 40px;
+  left: 1200px;
+  width: 20.3px;
+  height: 20.3px;
+}
+
+.close__icon:hover{
+  filter: invert(22%) sepia(73%) saturate(7500%) hue-rotate(358deg) brightness(92%) contrast(122%);
+  cursor: pointer;
+}
+
+.title_container{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 15px;
+}
+
+.process_edit_title {
+  flex-grow: 0;
+  margin: 0 22px 0px 43px;
+  font-family: Raleway;
+  font-size: 32px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: right;
+  color: #1e2469;
+}
+
+.add_another_process {
+  display: flex;
+  flex-grow: 0;
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #07b284;
+}
+
+.add_another_process:hover {
+  cursor: pointer;
+  color: #00d49c;
+}
+
+.plus_icon{
+  margin-right: 6.2px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+}
+
+.btn_section{
+  margin: 30px 43px 0px 0px ;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.btn__blue{
+  display: inline-block;
+    width: 164.1px;
+    height: 32px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin: 0 0 0 16.9px;
+    padding: 16px;
+    border-radius: 5px;
+    background-color: #3f48ad;
+    color: #fff;
+}
+
+.btn__blue:hover{
+  background-color: #5a63bd;
+  cursor: pointer;
+}
+
+.btn__light{
+  display: inline-block;
+  width: 138px;
+  height: 32px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 0 16.9px 0 0;
+  padding: 16px;
+  border-radius: 5px;
+  border: solid 2px #d6d6eb;
+  background-color: #fff;
+}
+
+.btn__light:hover{
+  background-color: #ababb4c5;
+  cursor: pointer;
+}

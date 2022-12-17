@@ -1,0 +1,11 @@
+.main__item__container {
+    display: flex;
+    justify-content: space-between;
+    width: 941px;
+    height: 78px;
+    flex-grow: 0;
+    margin: 35px 0 12px;
+    padding: 16px 94px 17px 34px;
+    border-radius: 10px;
+    background-color: #fff;
+  }

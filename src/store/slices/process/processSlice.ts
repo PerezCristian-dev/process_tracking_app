@@ -66,13 +66,13 @@ export const processSlice = createSlice({
     saveItems: (state) => {
       state.isActive = !state.isActive;
       sessionStorage.setItem("process", JSON.stringify(state.processes));
-      const storage: any = sessionStorage.getItem("process") || null;
+      const storage: any = sessionStorage.getItem("process") || initialState;
       state.processes = JSON.parse(storage);
     },
 
     cancelAction: (state) => {
       state.isActive = !state.isActive;
-      const storage: any = sessionStorage.getItem("process") || null;
+      const storage: any = sessionStorage.getItem("process") || initialState;
       state.processes = JSON.parse(storage);
     },
   },

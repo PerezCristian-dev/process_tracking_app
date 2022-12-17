@@ -9,3 +9,28 @@
     border-radius: 10px;
     background-color: #fff;
   }
+
+  .main_item {
+    display: flex;
+    flex-grow: 0;
+    flex-direction: column;
+    justify-content: center;
+ 
+    align-content: center;
+    gap: 7px;
+    padding: 0;
+  }
+
+  .item__header{
+      font-family: Raleway;
+      font-size: 16px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #949494;
+  }
+
+  

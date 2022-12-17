@@ -4,12 +4,11 @@ import { ProcessEditModal } from "./components/ProcessEditModal";
 import { MainItem } from "./components/MainItem";
 import { useSelector, useDispatch } from "react-redux";
 import { setIsActive } from "./store/slices/process/processSlice";
-import plusIcon from "./assets/plusIcon.svg"
+import plusIcon from "./assets/plusIcon.svg";
+
 function App() {
   const { processes, isActive } = useSelector((state: any) => state?.process);
   const dispatch = useDispatch();
-  // const [isActive, setisActive] = useState(false);
-  // const [procedimientos, setProcedimientos] = useState<any[]>(process);
 
   const handleClick = () => {
     dispatch(setIsActive());
@@ -18,8 +17,8 @@ function App() {
   return (
     <>
       {isActive && <ProcessEditModal />}
-      <div className="HOME-Cliente-01">
-        <h1 className="A-consulta">Procedimientos</h1>
+      <div className="main__page">
+        <h1 className="main__title">Procedimientos</h1>
         {processes.map((procedimiento: any) => {
           return <MainItem key={procedimiento?.id} process={procedimiento} />;
         })}

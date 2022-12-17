@@ -21,3 +21,31 @@
     border: solid 2px #9cbeb3;
     background-color: #f6f6fb;
 }
+
+.item__header{
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #949494;
+    margin: 0 0px 5px 0px;
+}
+
+.item__description {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    margin: 0;
+  }
+
+

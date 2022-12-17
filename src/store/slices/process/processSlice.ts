@@ -55,7 +55,6 @@ export const processSlice = createSlice({
     },
 
     deleteItem: (state, action) => {
-    
       state.processes.splice(action.payload - 1, 1);
       state.processes = state.processes.map((item: any, index: number) => {
         return { ...item, id: index + 1 };
@@ -66,14 +65,14 @@ export const processSlice = createSlice({
     saveItems: (state) => {
       state.isActive = !state.isActive;
       sessionStorage.setItem("process", JSON.stringify(state.processes));
-      const storage: any = sessionStorage.getItem("process") || initialState;
-      state.processes = JSON.parse(storage);
+      const storage: any = JSON.parse(sessionStorage.getItem("process")) || initialState;
+      state.processes = storage;
     },
 
     cancelAction: (state) => {
       state.isActive = !state.isActive;
-      const storage: any = sessionStorage.getItem("process") || initialState;
-      state.processes = JSON.parse(storage);
+      const storage: any = JSON.parse(sessionStorage.getItem("process"))||initialState;
+      state.processes = storage;
     },
   },
 });

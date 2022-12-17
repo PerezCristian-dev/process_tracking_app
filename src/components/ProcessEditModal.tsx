@@ -21,7 +21,6 @@ export const ProcessEditModal = () => {
 
   const handleAdd = () => {
     dispatch(addNewItem());
-    console.log("add items");
   };
 
   const handleSave = () => {

@@ -48,17 +48,14 @@ export const processSlice = createSlice({
 
     updateItem: (state, action) => {
       const { id, name, value } = action.payload;
-      console.log({ ...state.processes[id - 1] });
-      console.log(id);
-      state.processes[id - 1] = {
+         state.processes[id - 1] = {
         ...state.processes[id - 1],
         [name]: value,
       };
     },
 
     deleteItem: (state, action) => {
-      console.log(action.payload);
-      console.log(state.processes);
+    
       state.processes.splice(action.payload - 1, 1);
       state.processes = state.processes.map((item: any, index: number) => {
         return { ...item, id: index + 1 };
